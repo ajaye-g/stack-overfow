@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -11,7 +11,6 @@ body {
 /*header*/
 .headerLeft img {
 	width: 150px;
-	
 	cursor: pointer;
 }
 
@@ -101,7 +100,7 @@ body {
 	width: 500px;
 	border: none;
 	font-size: medium;
-	outline: none;
+	
 }
 
 .headerRight {
@@ -136,47 +135,43 @@ body {
 .sidebar {
 	width: 20%;
 	overflow: scroll;
+	height:685px;
+	position:sticky;
 }
 
 .sidebar_option1 {
-	margin-top: 30px;
-	margin-left: 70px;
+	margin: 30px 0 0 70px;
 	cursor: pointer;
 }
 
 .sidebar_option2 {
-	margin-top: 30px;
-	margin-left: 70px;
+	margin: 30px 0 0 70px;
 }
 
 .sidebar_option3 {
 	display: flex;
-	margin-top: 15px;
-	margin-left: 70px;
+	margin: 15px 0 0 70px;
 	cursor: pointer;
 }
 
 .sidebar_option4 {
-	margin-top: 15px;
-	margin-left: 95px;
+	margin: 15px 0 0 95px;
 	cursor: pointer;
 }
 
 .sidebar_option5 {
-	margin-top: 15px;
-	margin-left: 95px;
+	margin: 15px 0 0 95px;
 	cursor: pointer;
+	background-color:#f2f1ed;
 }
 
 .sidebar_option6 {
-	margin-top: 15px;
-	margin-left: 95px;
+	margin: 15px 0 0 95px;
 	cursor: pointer;
 }
 
 .sidebar_option7 {
-	margin-top: 15px;
-	margin-left: 70px;
+	margin: 15px 0 0 70px;
 	display: flex;
 }
 
@@ -188,8 +183,7 @@ body {
 
 .sidebar_option8 {
 	display: flex;
-	margin-top: 15px;
-	margin-left: 70px;
+	margin: 15px 0 0 70px;
 	cursor: pointer;
 }
 
@@ -198,8 +192,7 @@ body {
 }
 
 .sidebar_option9 {
-	margin-top: 15px;
-	margin-left: 70px;
+	margin: 15px 0 0 70px;
 }
 
 .sidebar h6 {
@@ -214,7 +207,6 @@ body {
 
 .card {
 	width: 200px;
-	height: 300px;
 	background-color: white;
 	border: 1px solid darkgray;
 	position: relative;
@@ -230,8 +222,6 @@ body {
 
 .card img {
 	object-fit: contain;
-	height: 130px;
-	margin-left: 0px;
 	width: 155px;
 }
 
@@ -244,7 +234,6 @@ body {
 	border-radius: 5px;
 	border-top: 2px solid white;
 	padding: 5px;
-	margin-right: 0px;
 }
 
 .side_option_1 h3 {
@@ -270,7 +259,6 @@ body {
 .profileButton1 {
 	display:flex;
 	padding: 10px;
-	
 	justify-content:flex-end;
 }
 
@@ -300,7 +288,9 @@ body {
 	margin-left: 20px;
 	font-size: 35px;
 }
-
+.rightProfile{
+	margin: 20px 0 0 450px;
+}
 
 .profileDetails {
 	display: flex;
@@ -837,7 +827,7 @@ body {
 }
 
 .badgesBname button {
-	width: 70px;
+	width: 72px;
 	padding: 3px;
 	border-radius: 5px;
 	border-color: darkgray;
@@ -859,7 +849,7 @@ body {
 }
 
 .badgesB2name button {
-	width: 110px;
+	width: 113px;
 	padding: 3px;
 	border-radius: 5px;
 	border-color: darkgray;
@@ -870,7 +860,7 @@ body {
 }
 
 .badgesCname button {
-	width: 61px;
+	width: 66px;
 	padding: 3px;
 	border-radius: 5px;
 	border-color: darkgray;
@@ -1211,3 +1201,4 @@ body {
 .dotGold {
 	color: rgb(255, 204, 102);
 }
+
