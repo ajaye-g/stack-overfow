@@ -21,6 +21,8 @@ body {
 	border-top: 3px solid orange;
 	background-color: #f8f9f9;
 	padding: 5px;
+	position: sticky;
+	top: 0;
 }
 
 .headerLeft {
@@ -135,8 +137,9 @@ body {
 .sidebar {
 	width: 20%;
 	overflow: scroll;
-	height:685px;
-	position:sticky;
+	height: 685px;
+	position: sticky;
+	top: 51px;
 }
 
 .sidebar_option1 {
@@ -163,6 +166,7 @@ body {
 	margin: 15px 0 0 95px;
 	cursor: pointer;
 	background-color:#f2f1ed;
+	border-right: 5px solid orange;
 }
 
 .sidebar_option6 {
@@ -557,7 +561,7 @@ body {
 }
 
 .stackImg {
-	color: blue;
+	color: #0074CC;
 }
 
 .communitiesMeta {
@@ -573,7 +577,7 @@ body {
 }
 
 .metaImg {
-	color: blue;
+	color: #0074CC;
 }
 
 .communitieSuper {
@@ -589,7 +593,7 @@ body {
 }
 
 .superImg {
-	color: blue;
+	color: #0074CC;
 }
 
 .communitiesServer {
@@ -605,7 +609,7 @@ body {
 }
 
 .serverImg {
-	color: blue;
+	color: #0074CC;
 }
 
 .communitiesSoftware {
@@ -622,7 +626,7 @@ body {
 }
 
 .softwareImg {
-	color: blue;
+	color: #0074CC;
 }
 
 .badges1Dtailimg img {
@@ -837,6 +841,9 @@ body {
 	border-width: 1px;
 }
 
+a {
+	color: #0074CC;
+}
 .badgesB1name button {
 	width: 61px;
 	padding: 3px;
